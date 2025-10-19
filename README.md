@@ -173,5 +173,5 @@ Kod MIT lisansı altındadır, ancak veri setleri yalnızca akademik kullanım i
 ## 📬 İletişim  
 
 Proje sahibi: **Gülsu Çelik**  
-📧 gulsucelik.dev@gmail.com *(isteğe bağlı eklenebilir)*  
+📧 gulsucelik.dev@gmail.com   
 🌐 [github.com/roswate](https://github.com/roswate)
