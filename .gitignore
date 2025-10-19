@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Streamlit cache
+.streamlit/
+
+# Environment
+.env
+
+# Data
+data/
+vectordb/
