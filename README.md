@@ -17,6 +17,7 @@ Amacım, Türk kültürünün bu otantik yönünü dijital dünyada temsil edebi
 
 ---
 
+
 ## 🧠 Teknik Altyapı  
 
 Ayten, **RAG (Retrieval-Augmented Generation)** mimarisi kullanılarak geliştirildi.  
@@ -53,7 +54,13 @@ Projeyi çalıştırmak isteyen kullanıcılar veri paketini indirip uygun klas�
 📥 **İndir:**  
 [👉 Ayten Data Pack v1](https://github.com/roswate/Ayten-bot.2/releases/download/v1.0-corpus/ayten-corpus-v1.zip)
 
+
 ### Kullanım:
+<img width="580" height="179" alt="Screenshot 2025-10-19 at 19 47 45" src="https://github.com/user-attachments/assets/0852ae86-aba2-48f6-b448-960097d65a20" />
+<img width="1029" height="707" alt="Screenshot 2025-10-19 at 20 42 49" src="https://github.com/user-attachments/assets/2ae6c742-203a-4f65-8b64-df84e9da81af" />
+Kaynaklar kitaplara eklendikten sonra bu şekilde görünmeli
+
+
 ```bash
 # 1. Veri paketini indirin
 # 2. İçeriğini şu klasöre çıkarın:
@@ -69,7 +76,8 @@ yer almaktadır.<img width="580" height="179" alt="Screenshot 2025-10-19 at 19 4
 
 ---
 
-## 🧩 Proje Dosya Yapısı  
+## 🧩 Proje Dosya Yapısı
+
 
 ```
 .
@@ -114,6 +122,11 @@ yer almaktadır.<img width="580" height="179" alt="Screenshot 2025-10-19 at 19 4
    ```bash
    streamlit run src/app.py
    ```
+<img width="928" height="468" alt="Screenshot 2025-10-19 at 20 43 34" src="https://github.com/user-attachments/assets/47640497-4e5a-4c17-80b6-9b171c5468d6" />
+
+   <img width="1028" height="856" alt="Screenshot 2025-10-19 at 20 42 39" src="https://github.com/user-attachments/assets/75b14b5e-a173-448e-927f-9af21ca2bdc6" />
+
+   Her şey kurulduktan sonra , çalışan uygulama böyle gözükmelidir.
 
 ---
 
