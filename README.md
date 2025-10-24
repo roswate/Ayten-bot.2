@@ -1,4 +1,4 @@
-# 🧿 Ayten — Gaziantep Mutfağı Asistanı  
+# 🧿 Ayten — Gaziantep Mutfağı Asistanı ve Bir Can Yoldaşı 
 **Akbank Generative AI Bootcamp | RAG (Retrieval-Augmented Generation) Projesi**
 
 ---
