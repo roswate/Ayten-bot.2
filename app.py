@@ -4,7 +4,7 @@ import os
 from sentence_transformers import SentenceTransformer
 import chromadb
 from chromadb.utils import embedding_functions
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 
 # --- Sayfa Ayarları ---
 st.set_page_config(page_title="Ayten Bot", page_icon="🍲", layout="wide")
