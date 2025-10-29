@@ -1,6 +1,6 @@
 # 🧿 Ayten — Gaziantep Mutfağı Asistanı ve Bir Can Yoldaşı 
 **Akbank Generative AI Bootcamp | RAG (Retrieval-Augmented Generation) Projesi**
-
+https://ayten-bot2-vdewdw5efzxrfnpvs5eugd.streamlit.app
 ---
 
 ## 🎯 Projenin Amacı  
