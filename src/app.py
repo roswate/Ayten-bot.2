@@ -33,7 +33,7 @@ system_prompt = PROMPT_FILE.read_text(encoding="utf-8")
 # ==============================
 # 2) Gemini yapılandırma
 # ==============================
-API_KEY = os.getenv("GOOGLE_API_KEY", "")
+API_KEY = st.secrets.get("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
 if not API_KEY:
     st.error("GOOGLE_API_KEY bulunamadı. .env dosyasını kontrol et.")
     st.stop()
