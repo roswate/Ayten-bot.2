@@ -9,8 +9,19 @@ import google.generativeai as genai
 # --- RAG için kütüphaneler ---
 import chromadb
 from chromadb.utils import embedding_functions
-from sentence_transformers import SentenceTransformer
+# sentence-transformers çok RAM yiyor, geçici olarak kapatabilirsin
+# from sentence_transformers import SentenceTransformer
 from pypdf import PdfReader
+
+# --- Hafif veri yükleme için cache bloğu ---
+@st.cache_data
+def load_df():
+    import pandas as pd
+    # dosyanın konumuna göre yolunu düzenle:
+    df = pd.read_csv("data/your.csv")
+    return df.head(1000)  # küçük örnek set
+
+df = load_df()
 
 # ==============================
 # 0) Ortam & Başlık
@@ -32,6 +43,7 @@ system_prompt = PROMPT_FILE.read_text(encoding="utf-8")
 
 # ==============================
 # 2) Gemini yapılandırma
+# ==============================
 # ==============================
 API_KEY = st.secrets.get("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
 if not API_KEY:
